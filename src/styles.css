@@ -1,0 +1,240 @@
+/* ===== FONTS ===== */
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  color: #f5f8ff;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(0,234,255,0.12), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(255,0,150,0.10), transparent 40%),
+    #050816;
+  line-height: 1.7;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+
+/* ===== NAVBAR ===== */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 22px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(14px);
+  background: rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.nav-links a {
+  margin-left: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #eaf2ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00eaff;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-size: 72px;
+}
+
+.accent {
+  color: #00eaff;
+}
+
+.hero p {
+  font-size: 22px;
+  max-width: 720px;
+  margin: 20px auto;
+  opacity: 0.9;
+}
+
+/* ===== BUTTONS ===== */
+.buttons a {
+  margin: 12px;
+  padding: 14px 28px;
+  font-weight: 600;
+  border-radius: 10px;
+  background: linear-gradient(45deg,#00eaff,#4facfe);
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.buttons a:hover {
+  transform: translateY(-2px);
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  border: 1px solid #00eaff;
+  font-weight: 600;
+  color: #00eaff;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 100px 20px;
+}
+
+.container h1 {
+  font-size: 52px;
+}
+
+.container p,
+.container li {
+  font-size: 19px;
+  color: #dbe6ff;
+}
+
+/* ===== ABOUT ===== */
+.about-card {
+  background: rgba(255,255,255,0.06);
+  padding: 30px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+}
+
+.about-box {
+  background: rgba(255,255,255,0.05);
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.about-box h3 {
+  font-size: 22px;
+}
+
+/* ===== PROJECTS ===== */
+.card {
+  padding: 32px;
+  margin: 30px 0;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h3 {
+  font-size: 30px;
+}
+
+.card p {
+  font-size: 19px;
+}
+
+.project-links a {
+  margin-right: 18px;
+  font-weight: 700;
+  color: #00eaff;
+  text-decoration: none;
+}
+
+/* ===== CONTACT ===== */
+.contact-card {
+  background: rgba(255,255,255,0.06);
+  padding: 40px;
+  border-radius: 16px;
+  font-size: 20px;
+}
+
+/* Highlight block for message */
+.contact-highlight {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 4px solid #00eaff;
+  background: rgba(0,234,255,0.08);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.contact-links {
+  margin-top: 20px;
+}
+
+.contact-links a {
+  margin-right: 20px;
+  padding: 10px 18px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  text-decoration: none;
+  color: #00eaff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  background: rgba(0,234,255,0.2);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  padding: 40px;
+  text-align: center;
+  opacity: 0.7;
+}
+/* Main section container */
+.section-container {
+  min-height: 100vh;          /* makes section fill screen */
+  padding: 80px 40px;         /* more space inside */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Increase div width */
+.content-box {
+  max-width: 1000px;          /* wider content */
+  margin: 0 auto;
+}
+
+/* Headings bigger */
+.content-box h1,
+.content-box h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Paragraph text bigger */
+.content-box p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
