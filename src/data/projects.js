@@ -9,7 +9,8 @@ export const projects = [
     title: "FinTrack Invoice",
     desc: "A full-stack invoice and payment management platform with secure authentication, 14+ RESTful APIs, invoice tracking, revenue analytics, and dynamic invoice generation.",
     tech: "React, Node.js, Express.js, MongoDB Atlas, JWT, Vite",
-    github: "https://github.com/Mansi30032024/FinTrack-Invoice"
+    github: "https://github.com/Mansi30032024/FinTrack-Invoice",
+    live: "https://fintrack-invoice.netlify.app/"
   },
   {
     title: "Orbit Office — Virtual Cosmos",
