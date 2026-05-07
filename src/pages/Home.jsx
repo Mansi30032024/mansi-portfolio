@@ -6,8 +6,7 @@ export default function Home() {
       </h1>
 
       <p>
-        Computer Science student passionate about DSA, Machine Learning,
-        and building impactful software.
+       Computer Science student and full-stack developer passionate about building scalable web applications, REST APIs, and real-world software solutions. Skilled in React, Node.js, Express.js, MongoDB, and problem solving with C++.     
       </p>
 
       <div className="buttons">
@@ -16,7 +15,7 @@ export default function Home() {
         <a href="https://www.linkedin.com/in/mansi-arora-a43290291/" target="_blank">LinkedIn</a>
       </div>
 
-      <a href="./public/technical resume.pdf" download className="resume-btn">
+      <a href="./public/23BCS12156_Mansi_one.pdf" download className="resume-btn">
         Download Resume
       </a>
     </section>

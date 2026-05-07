@@ -5,52 +5,59 @@ export default function About() {
 
       <div className="about-card">
         <p>
-          I'm Mansi, a passionate Computer Science student at Chandigarh University
-          with a strong interest in building real-world solutions through code.
-          I enjoy solving complex problems using Data Structures and exploring
-          Machine Learning to create intelligent systems.
+          I'm Mansi, a Computer Science student at Chandigarh University
+          passionate about building scalable web applications and solving
+          real-world problems using technology.
         </p>
 
         <p>
-          My journey in tech started with curiosity about how software works,
-          and over time I’ve developed projects ranging from AI chatbots to
-          responsive web applications. I believe in continuous learning,
-          writing clean code, and contributing to meaningful projects.
+          I enjoy working on full-stack projects using React, Node.js,
+          Express.js, and MongoDB, and I like turning ideas into practical,
+          user-friendly applications.
         </p>
       </div>
 
       <div className="about-grid">
+
         <div className="about-box">
-          <h3>💡 What I am Passionate About</h3>
-          <p>
-            Problem solving, building products, learning new technologies,
-            and participating in hackathons.
-          </p>
+          <h3>💡 Passion</h3>
+          <p>Full-stack development</p>
+          <p>REST APIs</p>
+          <p>Problem solving</p>
+          <p>Building real-world applications</p>
         </div>
 
         <div className="about-box">
           <h3>🚀 Experience</h3>
-          <p>
-            Completed Intel Summer Training focused on Machine Learning,
-            data preprocessing, and research experimentation.
-          </p>
+          <p>Built full-stack applications</p>
+          <p>Authentication systems (JWT)</p>
+          <p>Dashboard-based projects</p>
+          <p>MongoDB-based backend systems</p>
         </div>
-
+        
+        
         <div className="about-box">
           <h3>🏆 Achievements</h3>
-          <p>
-            Tekathon Top 100 teams, Flipkart Grid participant,
-            published ML comparison research work.
-          </p>
+          <p>185+ DSA problems solved on LeetCode and earned 100 Days Badge </p>
+    
+          <p>Top 100 Teams – Tekathon 4.0 (SIH Internal Hackathon 2025)</p>
         </div>
 
         <div className="about-box">
           <h3>🧠 Skills</h3>
-          <p>
-            C++, Python, React, SQL, DSA, OOP, Web Development,
-            Machine Learning fundamentals.
-          </p>
+          <p>C++</p>
+          <p>JavaScript</p>
+          <p>React</p>
+          <p>Node.js</p>
+          <p>Express.js</p>
+          <p>MongoDB</p>
+          <p>REST APIs</p>
+          <p>SQL</p>
+          <p>OOP</p>
+          <p>DSA</p>
+          <p>Git</p>
         </div>
+
       </div>
     </div>
   );

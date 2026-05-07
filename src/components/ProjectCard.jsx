@@ -7,8 +7,18 @@ export default function ProjectCard({ title, desc, tech, github, live }) {
       <p><strong>Tech Stack:</strong> {tech}</p>
 
       <div className="project-links">
-        <a href={github} target="_blank">GitHub</a>
-        <a href={live} target="_blank">Live</a>
+       
+         {github && (
+          <a href={github} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        )}
+
+        {live && (
+          <a href={live} target="_blank" rel="noreferrer">
+            Live
+          </a>
+        )}
       </div>
     </div>
   );
